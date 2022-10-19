@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
         // 文字切换
-        S.UI.simulate("祝|老姐|SYN|29|岁|生|日|快|乐|生日快乐|Happy birthday|countdown 3|#time");
+        S.UI.simulate("祝|老姐|SYN|29|岁|生|日|快|乐|生日快乐|#countdown 3|Happy birthday|#time");
         S.Drawing.loop(function () {
             S.Shape.render();
         });

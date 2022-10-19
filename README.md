@@ -1,5 +1,7 @@
 # 生日快乐网页
 
+[![](https://img.shields.io/badge/dynamic/json?label=Github&query=%24.data.totalSubs&suffix=%20followers&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dgithub%26queryKey%3DStar-tears)](https://github.com/Star-tears)
+
 # Demo
 
 [Click Here](https://syn-happy-birthday.star-tears.cn)  
