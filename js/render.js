@@ -71,10 +71,11 @@ S.UI = (function () {
 
     function formatTime(date) {
         var h = date.getHours(),
+            h = h < 10 ? '0' + h : h,
             m = date.getMinutes(),
             m = m < 10 ? '0' + m : m;
         var second = date.getSeconds(),
-            second=second<10?'0'+second:second;
+            second = second < 10 ? '0' + second : second;
         return h + ':' + m + ':' + second;
     }
 
